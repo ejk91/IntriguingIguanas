@@ -102,6 +102,10 @@ export class BoardPage extends React.Component {
     this.state.socket.emit('list-order-update', data);
   }
 
+  moveTaskAcross(direction, task_id, newList_id, newOrder) {
+
+  }
+
   render() {
     return (
       <div>
